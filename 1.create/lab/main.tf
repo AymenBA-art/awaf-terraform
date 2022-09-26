@@ -14,7 +14,7 @@ provider "bigip" {
 
 resource "bigip_waf_policy" "this" {
   partition                 = "Common"
-  name                      = "scenario1"
+  name                      = "tf_lab_scenario1"
   template_name             = "POLICY_TEMPLATE_RAPID_DEPLOYMENT"
   application_language      = "utf-8"
   enforcement_mode          = "blocking"

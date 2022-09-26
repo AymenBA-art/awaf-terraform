@@ -1,3 +1,3 @@
-bigip = "10.1.1.9:443"
-username = "admin"
-password = "A7U+=$vJ"
+bigip = "192.168.1.28"
+username = "awx"
+password = "Ansible1+"

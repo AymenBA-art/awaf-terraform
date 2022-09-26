@@ -1,3 +1,3 @@
-bigip = "10.1.1.9:443"
+bigip = ""
 username = "admin"
 password = "A7U+=$vJ"

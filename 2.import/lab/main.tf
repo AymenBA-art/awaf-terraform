@@ -14,6 +14,6 @@ provider "bigip" {
 
 resource "bigip_waf_policy" "this" {
   partition                 = "Common"
-  name                      = "scenario2"
+  name                      = "tf_scenario2"
   template_name             = "POLICY_TEMPLATE_RAPID_DEPLOYMENT"
 }
